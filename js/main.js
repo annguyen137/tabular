@@ -35,7 +35,7 @@ function renderMember_HTML(list) {
                 </div>
                 <div class="card-body text-center">
                   <h6 class="member__language">${list[i].language}</h6>
-                  <h4 class="card-title member__name">${list[i].name}</h4>
+                  <h4 class="card-title member__name">${list[i].fullname}</h4>
                   <p class="card-text member__info">${list[i].about}</p>
                 </div>
               </div>
