@@ -27,7 +27,9 @@ function getMemberList_API() {
 function renderMember_HTML(list) {
   var content = "";
   for (var i = 0; i < list.length; i++) {
-    content += `
+    // only render users with user type = "Teacher"
+    if (list[i].user === "Teacher") {
+      content += `
         <div class="col-lg-3 col-sm-6 col-12">
               <div class="card member__card animate__animated animate__fadeIn">
                 <div class="member__img">
@@ -41,6 +43,7 @@ function renderMember_HTML(list) {
               </div>
             </div>
         `;
+    }
   }
 
   document.getElementById("memberList").innerHTML = content;
