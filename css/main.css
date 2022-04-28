@@ -581,7 +581,7 @@ header nav.navbar .header__contact .social__item {
 
 .about {
   padding: 60px 0;
-  background: url("/image/yellow_top_wave_01.png");
+  background: url("..//image/yellow_top_wave_01.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top left;
@@ -760,7 +760,7 @@ header nav.navbar .header__contact .social__item {
 }
 
 footer {
-  background: url("/image/footer_background.jpg");
+  background: url("..//image/footer_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

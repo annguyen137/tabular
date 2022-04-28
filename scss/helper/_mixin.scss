@@ -22,7 +22,7 @@
 }
 
 @mixin background($bg, $size, $ps) {
-  background: url("/image/#{$bg}");
+  background: url("..//image/#{$bg}");
   background-repeat: no-repeat;
   background-size: $size;
   background-position: $ps;
